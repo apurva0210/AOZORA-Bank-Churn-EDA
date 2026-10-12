@@ -1,59 +1,125 @@
-# AOZORA-Bank-Churn-EDA
+# AOZORA Bank Customer Churn – Exploratory Data Analysis
 
-**Problem Statement for Bank Churn EDA at AOZORA**
+## 📌 Project Overview
 
-*Introduction*:
+This project focuses on Exploratory Data Analysis (EDA) of bank customer data to understand customer attrition patterns and explore the characteristics associated with customers leaving the bank.
 
-AOZORA is a prominent banking institution with a diverse customer base. To address concerns related to customer churn, an exploratory data analysis (EDA) is required. The dataset contains various attributes such as customer age, income, transaction history, and more.
+The analysis examines customer demographics, account-related attributes, card categories, income groups, and other available variables to identify patterns and generate meaningful business insights.
 
-*Objective*:
+## 🎯 Objectives
 
-The objective is to conduct a comprehensive EDA to gain insights into the factors influencing customer churn at AOZORA. This analysis will help in understanding the key drivers and potentially lead to strategies for customer retention.
+- Understand customer churn patterns in the banking dataset.
+- Analyze customer demographics and account-related characteristics.
+- Explore the relationship between customer attributes and attrition.
+- Perform univariate and bivariate analysis.
+- Use statistical summaries and visualizations to identify trends.
+- Develop data-driven insights that may support customer retention strategies.
 
-*Challenges*:
+## 📂 Repository Contents
 
-1. **Understanding Churn Patterns**:
-   - Identifying the underlying patterns and trends in customer churn within the bank.
+| File | Description |
+|---|---|
+| `Bank Churn Data EDA.ipynb` | Jupyter Notebook containing data exploration, analysis, and visualizations |
+| `DS1_C6_S1_BankChurn_Data_Concept.csv` | Dataset used for the analysis |
+| `README.md` | Project documentation |
 
-2. **Correlation Analysis**:
-   - Determining which demographic and transaction-related attributes are strongly correlated with customer churn.
+## 🛠️ Technologies and Libraries
 
-3. **Impact of Customer Transactions**:
-   - Assessing how transaction behavior, such as frequency and volume, relates to customer churn rates.
+- **Python** – Programming and data analysis
+- **Pandas** – Data manipulation and analysis
+- **NumPy** – Numerical operations
+- **Matplotlib** – Data visualization
+- **Seaborn** – Statistical data visualization
+- **Tabulate** – Formatting tabular output
+- **Jupyter Notebook** – Interactive development environment
 
-4. **Customer Relationship Influence**:
-   - Investigating if factors like total relationship count and customer activity affect churn.
+## 🔍 Analysis Performed
 
-5. **Credit Utilization and Limits**:
-   - Evaluating if credit-related factors play a role in customer churn.
+### 1. Data Inspection
+- Displayed initial and final records.
+- Examined dataset structure, columns, and data types.
+- Checked for missing values.
 
-*Requirements*:
+### 2. Univariate Analysis
+- Explored individual customer attributes.
+- Examined categorical variables such as gender, education, income category, and card category.
+- Used statistical summaries and visualizations to understand distributions.
 
-The analysis should include:
+### 3. Bivariate Analysis
+- Compared customer attrition status with selected demographic and account-related attributes.
+- Explored attrition patterns across gender, education, income category, card category, and dependent count.
+- Used visualizations to compare customer groups.
 
-1. **Data Preparation**:
-   - Cleaning and preparing the dataset for analysis.
+### 4. Correlation Analysis
+- Examined relationships among numerical variables using correlation analysis and a heatmap.
 
-2. **Exploratory Data Analysis**:
-   - Utilizing statistical and visualization techniques to uncover insights.
+### 5. Data Visualization
+- Created charts to understand customer distributions and compare attrition patterns across different categories.
 
-3. **Correlation Assessment**:
-   - Identifying key factors correlated with customer churn.
+## 📊 Key Areas of Investigation
 
-4. **Visualization**:
-   - Providing visual representations of the data for better understanding.
+The analysis explores:
 
-5. **Recommendations**:
-   - Offering insights and potential strategies for customer retention.
+- Customer attrition distribution.
+- Differences in attrition patterns across customer groups.
+- Relationships between customer characteristics and attrition.
+- Potential patterns that could help guide customer retention efforts.
 
-*Deliverables*:
+The conclusions should be interpreted from the actual charts and numerical results in the notebook. This project focuses on exploratory analysis and does not claim that the observed relationships establish causation.
 
-AOZORA expects the following:
+## 💡 Business Applications
 
-1. **Comprehensive EDA Report**:
-   - Summarizing findings, including visualizations and key takeaways.
+The findings from this analysis may help banking organizations:
 
-2. **Key Insights Presentation**:
-   - A presentation highlighting crucial insights and recommendations.
+- Identify customer groups with comparatively higher attrition rates.
+- Understand customer characteristics associated with churn.
+- Investigate areas that may require further customer satisfaction analysis.
+- Develop data-informed customer retention strategies.
 
-By conducting this EDA, AOZORA aims to gain a deeper understanding of customer churn patterns and implement strategies to improve customer retention and organizational stability.
+These are potential applications of the analysis, not claims that specific retention strategies were implemented or tested.
+
+## ▶️ How to Run the Project
+
+### Prerequisites
+
+Install Python and Jupyter Notebook, then install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn tabulate jupyter
+```
+
+### Steps
+
+1. Clone or download this repository.
+2. Ensure the CSV dataset and notebook are in the same directory.
+3. Open a terminal in the project directory.
+4. Start Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+5. Open `Bank Churn Data EDA.ipynb`.
+6. Run the notebook cells sequentially.
+
+**Note:** The dataset filename in the notebook must match the actual CSV filename in the repository.
+
+## 📁 Dataset
+
+The dataset is provided in this repository for use with the notebook. It contains customer-related attributes used to explore banking customer churn.
+
+Please refer to the dataset source and its licence or usage terms before redistributing the data.
+
+## 👩‍💻 Author
+
+**Apurva Kadam**
+
+GitHub: [@apurva0210](https://github.com/apurva0210)
+
+## 📝 Conclusion
+
+This project demonstrates practical skills in Python programming, data manipulation, exploratory data analysis, statistical exploration, and data visualization. It uses customer data to investigate patterns associated with bank customer attrition and explore insights relevant to customer retention.
+
+---
+
+*This project was developed for learning and practice in Data Analysis and Exploratory Data Analysis.*
